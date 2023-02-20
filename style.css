@@ -45,8 +45,64 @@ header ul a:last-child{
     border-radius: 20px;
 }
 
+.container {
+
+    width: 80%;
+    margin: auto;
+
+}
+
+.wh {
+
+    background-color: white;
+}
+
 /*MAIN*/
+
+section{
+    width: 100%;
+}
+
+main{
+    background-color: rgb(149,148,224);
+}
 
 #svc{
     padding-top: 80px;
+}
+
+.card {
+
+    background-color: rgb(168,216,255);
+    margin: 20px 0px; 
+}
+
+.cards {
+
+    padding: 25px 0px;
+}
+
+.cb-img {
+
+    height: 200px;
+}
+
+.cb-in.cb-img img {
+
+    object-fit: contain;
+    height: 100%;
+    
+}
+.card.big {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 0px;   
+}
+
+.cb-in.cb-img {
+
+    margin-bottom: 0px;
+
 }
