@@ -52,6 +52,12 @@ header ul a:last-child{
 
 }
 
+.card {
+
+    padding: 20px;
+}
+
+
 .wh {
 
     background-color: white;
@@ -106,3 +112,44 @@ main{
     margin-bottom: 0px;
 
 }
+
+.plan-ls.card .cb-img img , .plan-ls .cb-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.plan-ls.card .cb-img, .plan-ls .cb-img{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+
+.cb-in.cb-img{
+    margin-bottom: 0px;
+}
+
+/*PLAN*/
+
+#plan{
+    padding: 40px 0px 10px 0px;
+}
+
+.plan-ls:first-child{
+    color: white;
+}
+
+.plan-ls.card{
+    background-color: white;
+}
+
+.plan-ls .cb-img {
+
+    width: 100%;
+    margin: 0;
+}
+
+
+
+
+
