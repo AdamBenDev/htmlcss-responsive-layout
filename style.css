@@ -45,7 +45,8 @@ header ul a:last-child{
     border-radius: 20px;
 }
 
-h2, h3, h4, p, div{
+
+h2, h3, h4, h5, h6, p, div{
     font-family: 'PT Sans', sans-serif;
     font-weight: bolder;
     margin: 20px 0px;
@@ -58,6 +59,13 @@ p{
 
 div {
     border-radius: 20px;
+}
+
+
+.logo a:link , .logo a:visited{
+
+    color: white;
+    text-decoration: none;
 }
 
 .container {
@@ -264,7 +272,7 @@ main{
 
 /*ABOUT*/
 
-#about h2{
+#about h2 {
     color:rgb(139,133,223);
     padding-top: 40px;
     padding-bottom: 20px;
@@ -278,6 +286,21 @@ main{
     color:rgb(139,133,223);
     font-size: 80px;
 }
+
+#about .tes-i {
+    width: 250px;
+    height: 250px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+#about .p-big{
+    color: rgb(139,133,223);
+    font-size: 30px;
+    line-height: 40px;
+}
+
 
 .tes-i {
     display: flex;
@@ -327,6 +350,11 @@ main{
 #free h3 {
     color: rgb(186, 183, 214);
     font-size: 18px;
+}
+
+#free h2:nth-of-type(2) {
+    color: rgb(255,184,86);
+    font-size: 50px;
 }
 
 
