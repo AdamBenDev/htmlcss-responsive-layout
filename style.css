@@ -433,6 +433,8 @@ footer a:link , footer a:visited {
 
 /*RESPONSIVE TABLET*/
 
+
+/*SECTION CARDS GET A DEMO*/
 @media screen and (min-width:588px) and (max-width:997px){
     .cards {
         display: flex;
@@ -440,7 +442,104 @@ footer a:link , footer a:visited {
         width: 100%;
     }
 
-    .cards.card {
-        
+    .cards .card {
+        margin: 10px;
     }
+
+    .cr-2 .card {
+        width: calc(100% / 3 );
+    }
+
+    .cr-1 {
+
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cr-1 .card.big {
+
+        width: 70%;
+        text-align: left;
+     }
+
+     .cr-1 .card {
+
+        width: 33.3333%;
+    }
+
+    .cr-2 {
+
+        
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*STRATEGIC PLAN*/
+
+    .test-c.card {
+
+        flex-direction: row;
+        text-align: left;
+        font-size: 0.8em;
+    }
+
+    .tes-i {
+
+        width: 100px;
+        height: 100px;
+    
+    }
+
+    .test-c.card .tes-i{
+
+        width: 200px;
+        height:200px;
+        margin-right: 40px;
+    }
+
+
+    .card .tes-d p {
+
+        text-align:left;
+        color: white;
+    }
+
+    /*SECTION TESTIMONIAL*/
+
+    .wu-in {
+
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%
+    }
+
+    .wu-in .card {
+
+        width: calc( 100% / 2 - 20px );
+        margin: 10px;
+    }
+
+    .abt-in {
+
+        display: flex;
+    }
+
+    .abt-p {
+
+        width: 30%;
+    }
+
+    .abt-d {
+
+        width: 70%;
+    }
+
+    
+    h1, h2, h3, h4 {
+
+        font-size: 1.5em;
+    }
+
 }
